@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <!-- md เกินครึ่งจอ -->
   <body class="bg-gray-950 text-white">
     <nav
       class="flex justify-between items-center py-[14px] px-[75px] bg-gray-950 border-b-2 border-[#3d3d3d]"
     >
       <div class="">
-        <a href="index.html" class="text-white hover:text-teal-300 text-[26px]"
+        <a
+          href="index.html"
+          class="text-white hover:text-teal-300 duration-200 delay-100 text-[26px]"
           >🌟 My Portfolio</a
         >
       </div>
@@ -21,85 +22,85 @@
         >
         <a
           href="fav.html"
-          class="text-white text-[20px] font-[450] hover:text-teal-300"
+          class="text-[20px] font-[450] hover:text-teal-300 duration-200 delay-100"
           >📌Favorites</a
         >
         <a
           href="gallery.html"
-          class="text-white text-[20px] font-[450] hover:text-teal-300"
+          class="text-[20px] font-[450] hover:text-teal-300 duration-200 delay-100"
           >📸Gallery</a
         >
         <a
           href="contact.html"
-          class="text-white text-[20px] font-[450] hover:text-teal-300"
+          class="text-[20px] font-[450] hover:text-teal-300 duration-200 delay-100"
           >📞Contact</a
         >
       </div>
     </nav>
     <section class="max-w-5xl mx-auto mt-12 px-12">
       <div
-        class="flex flex-col justify-center md:flex-row items-center md:items-start gap-10 bg-[#1a1a1a] p-8 md:p-12 rounded-2xl border-t-4"
+        class="flex justify-center items-center gap-10 bg-[#1a1a1a] border-gray-800 p-8 rounded-2xl border-2 hover:border-green-400 hover:-translate-y-2 transition-all duration-300 delay-150"
       >
-        <div class="w-[240px] items-center flex justify-center">
+        <div class="w-[240px] flex justify-center">
           <img
             class="rounded-[25px] border-5 border-teal-500"
             src="img/pic_me.jpg"
             alt="me_picture"
           />
         </div>
-        <div class="w-full flex flex-col justify-start content-center p-2">
-          <h1 class="text-[34px]">🐻‍❄️นวพรรษ พร้อมพงษ์</h1>
-          <h2 class="text-[18px] text-gray-300">
-            สวัสดีครับ😎 ผมชื่อนวพรรษ พร้อมพงษ์ ชื่อเล่นว่า แทน<br>
+
+        <div class="w-[280px] flex-1 flex-col p-2">
+          <h1 class="text-[34px] font-bold">นวพรรษ พร้อมพงษ์ 😎</h1>
+          <p class="text-[17px] text-gray-300 mt-2">
+            สวัสดีครับ ผมชื่อนวพรรษ พร้อมพงษ์ ชื่อเล่น แทน<br />
             ปัจจุบันผมเป็นนักศึกษาภาควิชาวิศวกรรมคอมพิวเตอร์
-            มหาวิทยาลัยเชียงใหม่
-            <h2 class="text-[18px] text-gray-300">
-            ผมชอบแมวและชอบออกไปหาของอร่อยๆกินในเวลาว่าง
-          </h2>
+            มหาวิทยาลัยเชียงใหม่<br />
+            ผมชอบแมวและชอบออกไปหาของอร่อยๆ กินในเวลาว่าง
+          </p>
         </div>
       </div>
     </section>
+
     <section class="max-w-5xl mx-auto mt-10 px-12 pb-12">
       <div
-        class="flex justify-center items-center bg-[#1a1a1a] p-6 mb-6 rounded-[15px]"
+        class="flex justify-center items-center bg-[#1a1a1a] border-1 border-gray-800 p-6 mb-6 rounded-[15px] hover:border-blue-400 hover:-translate-y-2 transition-all duration-300 delay-150"
       >
         <h1 class="text-[28px] font-bold">💪🏼 ทักษะและความสามารถ</h1>
       </div>
-      <!-- md:w-1/3 1/3 ของความกว้างจอถ้าเปิดเต็มจอ -->
-      <div class="flex flex-col md:flex-row justify-between gap-6">
+      <div class="flex flex-wrap justify-center gap-6">
         <div
-          class="flex flex-col bg-[#1a1a1a] p-8 rounded-[15px] w-full md:w-1/3"
+          class="flex-1 min-w-[250px] bg-[#1a1a1a] border-1 border-gray-800 p-6 rounded-[15px] hover:border-blue-400 hover:-translate-y-2 transition-all duration-300 delay-150"
         >
           <h1 class="text-xl font-semibold text-emerald-400">💻 Programming</h1>
           <hr class="border-t border-gray-600 my-3" />
-          <h2 class="text-gray-400 text-sm">
+          <p class="text-white text-sm">
             สามารถเขียนภาษา C++, HTML, CSS, Python และ JavaScript ได้ครับ
-          </h2>
+          </p>
         </div>
 
         <div
-          class="flex flex-col bg-[#1a1a1a] p-8 rounded-[15px] w-full md:w-1/3"
+          class="flex-1 min-w-[250px] bg-[#1a1a1a] border-1 border-gray-800 p-6 rounded-[15px] hover:border-blue-400 hover:-translate-y-2 transition-all duration-300 delay-150"
         >
           <h1 class="text-xl font-semibold text-amber-400">
             🎨 UX/UI Designing
           </h1>
           <hr class="border-t border-gray-600 my-3" />
-          <h2 class="text-gray-400 text-sm">
-            สามารถออกแบบเว็บไซต์และใช้ Framwork ต่างๆได้
-          </h2>
+          <p class="text-white text-sm">
+            สามารถออกแบบเว็บไซต์และใช้ Framework ต่างๆ ได้
+          </p>
         </div>
 
         <div
-          class="flex flex-col bg-[#1a1a1a] p-8 rounded-[15px] w-full md:w-1/3"
+          class="flex-1 min-w-[250px] bg-[#1a1a1a] border-1 border-gray-800 p-6 rounded-[15px] hover:border-blue-400 hover:-translate-y-2 transition-all duration-300 delay-150"
         >
           <h1 class="text-xl font-semibold text-cyan-400">
             🔨 Tools and Others
           </h1>
           <hr class="border-t border-gray-600 my-3" />
-          <h2 class="text-gray-400 text-sm">
-            ใช้งานเครื่องมือพัฒนาระบบต่างๆได้อย่างดี เช่น Git, GitHub และ VS
+          <p class="text-white text-sm">
+            ใช้งานเครื่องมือพัฒนาระบบต่างๆ ได้อย่างดี เช่น Git, GitHub และ VS
             Code
-          </h2>
+          </p>
         </div>
       </div>
     </section>
